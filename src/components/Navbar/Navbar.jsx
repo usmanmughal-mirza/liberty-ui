@@ -34,7 +34,7 @@ const Navbar = () => {
       
         {/* mobile nav ------ */}
        
-        <nav className={showMobileNav ? "nav-md active" : "nav-md"} >
+        <nav className={showMobileNav ? "nav-md active" : "nav-md close"} >
            <ul role="list">
             <Items />
           </ul>

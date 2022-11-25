@@ -253,3 +253,11 @@ color: var(--clr-tranparent-500);
         width: 73em;
     }
 }
+
+/* 88em = 1408px ~ 1400px  */
+
+/* @media(min-width:88em) {
+    .container {
+        width: 86em;
+    }
+} */
