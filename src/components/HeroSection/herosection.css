@@ -1,0 +1,64 @@
+
+
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../assets/bg-purple.svg");
+    background-position: center center;
+
+}
+/* HEADER ------------------------ */
+
+.header-content h1 {
+    text-transform: uppercase;
+    max-width: 28rem;
+    width: 100%;
+    line-height: 1.35;
+}
+.header-btn button {
+padding: 0.8rem 1.8rem;
+position: relative;
+}
+
+.header-btn button:first-child {
+background-color: transparent;
+border: 1px solid var(--clr-primary-500);
+margin-right: 1rem;
+}
+
+.header-btn button:first-child:hover {
+    background-color:var(--clr-primary-500) ;
+}
+.header-btn button:last-child:hover {
+background-color: var(--clr-tranparent-500);
+color: var(--clr-primary-500);
+}
+
+.header-btn button::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(14%);
+    content: "";
+    width: 80%;
+    height: 2.3px;
+    background-color: var(--clr-tranparent-500);
+}
+
+/* MEDIA QUERIES ------------------- */
+
+@media(min-width:36em) {
+.header-content h1 {
+    max-width: 32rem;
+}
+}
+
+@media(min-width:62em) {
+    .header-subcontainer {
+        display: flex;
+        column-gap: 5rem;
+    }
+ .header-content p {
+   max-width: 32rem;
+ }
+}

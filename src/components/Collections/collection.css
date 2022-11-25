@@ -1,0 +1,49 @@
+
+
+.collections__cardsmcontainer h2 {
+max-width: 20rem;
+text-align: center;
+line-height: 1.3;
+letter-spacing: .5px;
+}
+
+.collections__cardsmcontainer-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.collections__cardlgcontainer-heading {
+    display: flex;
+    justify-content: center
+}
+.collections__cardlgcontainer-heading h2 {
+    max-width: 27rem;
+    text-align: center;
+    line-height: 1.3;
+    letter-spacing: .5px;
+    margin-bottom: 1.5rem;
+}
+
+
+
+@media(min-width:48em) {
+
+    .collections__cardsmcontainer>div:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+}
+
+}
+
+@media(min-width:62em) {
+.collections__cardsmcontainer>div:nth-child(2) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width:75em) {
+.collections__cardsmcontainer>div:nth-child(2) {
+       grid-template-columns: repeat(6,1fr);
+    }
+}

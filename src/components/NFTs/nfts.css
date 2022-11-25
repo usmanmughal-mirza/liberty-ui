@@ -1,0 +1,90 @@
+
+
+.nfts__contentcontainer {
+    display: grid;
+    grid-template-columns:1fr;
+    row-gap: 40px;
+}
+.nfts__primarycontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nfts__primarycontent button {
+    background-color: var(--clr-tranparent-500);
+    padding: 0.8rem 1.8rem;
+    position: relative;
+    color: var(--clr-primary-500);
+    margin: 2.5rem 0; 
+}
+.nfts__primarycontent h2 {
+    max-width: 30rem;
+    width: 100%;
+    text-align: center;
+    line-height: 1.3;
+}
+.nfts__contentcontainer-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nfts__contentcontainer-card h4 {
+    text-align: center;
+    padding: 1rem 0;
+}
+.nfts__contentcontainer-card p {
+    text-align: center;
+}
+
+.nfts__contentcontainer-card img {
+    background-color: var(--clr-tranparent-500);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+@media(min-width:36em) {
+.nfts__primarycontent h2 {
+        max-width: 100%;
+    }
+}
+
+@media(min-width:62em) {
+    .nfts__contentcontainer {
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 20px;
+        }
+        .nfts__contentcontainer-card {
+            border-right:1px solid rgba(255, 255, 255, 0.394);
+        }
+           .nfts__primarycontent h2 {
+                    flex: 1;
+                    text-align: left;
+             }
+                .nfts__contentcontainer-card {
+                    align-items: flex-start;
+                }
+             .nfts__primarycontent {
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-between;
+                    height: 6rem;
+                    margin-bottom: 4rem;
+                     }
+.nfts__contentcontainer-card h4 {
+    text-align: left;
+}
+
+.nfts__contentcontainer-card p {
+    text-align: left;
+    width: 95%;
+}
+.nfts__primarycontent button {
+    margin: 0;
+    align-self: flex-start;
+}
+}
+
+@media(min-width:75em) {
+                       
+}

@@ -1,0 +1,56 @@
+:root {
+    /* COLORS ---------------- */
+    --clr-primary-500:hsl(251.72, 96.57%, 65.69%);
+    --clr-primary-gradient:linear-gradient(132deg, rgba(125, 90, 254, 1) 25%, rgba(160, 84, 244, 1) 100%);
+  
+    --clr-dark-600:black;
+    --clr-dark-500:#2a2a2a;  /* nav color */
+    --clr-dark-400:#282b2f;   
+    --clr-dark-300:#404245; /* border color */
+   
+    --clr-tranparent-500:#fff;
+    --clr-aqua-500:#3CF;
+
+    /* FONT-FAMILY ------------ */
+    --ff-primary:'Roboto', sans-serif;
+
+    --ff-body:var(--ff-primary);
+    --ff-heading:var(--ff-primary);
+
+
+    /* FONT WEIGHT ----------- */
+    --fw-regular: 400;
+    --fw-semi-bold: 500;
+    --fw-bold: 700;
+
+    /* FONT SIZE -------------- */
+    --fs-800:50px;
+    --fs-700:30px;
+    --fs-500:20px;
+    --fs-400:15px;
+    --fs-350:14px;
+
+
+    --fs-primary-heading:var(--fs-800);
+    --fs-secondary-heading:var(--fs-700);
+    --fs-para:var(--fs-400);
+    --fs-nav:var(--fs-350);
+    --fs-button:var(--fs-350);
+
+    /* PADDING BLOCK (TOP AND BOTTOM PADDING )  */
+    --size-100:10px;
+    --size-200:15px;
+    --size-300:20px;
+    --size-350:50px;
+    --size-400:120px;
+    --size-500:150px;
+    --size-800:200px;
+    --size-900:150px;
+    
+}
+
+/* @media(min-width:50em) {
+ :root {
+
+ }   
+} */
